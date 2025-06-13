@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Logs
+*.log
+
+# Screenshots and videos
+screenshots/
+videos/
+
+# Reports (keep templates/README)
+reports/*.json
+reports/*.md
+reports/*.html
+!reports/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/ 

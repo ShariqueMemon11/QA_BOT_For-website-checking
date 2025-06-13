@@ -1,0 +1,455 @@
+2025-06-12 23:39:05.697 | INFO     | qa_bot:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-12 23:39:05.706 | ERROR    | qa_bot:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/login: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:13.646 | ERROR    | qa_bot:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-12 23:39:19.939 | ERROR    | qa_bot:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-12 23:39:23.070 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-12 23:39:24.415 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-12 23:39:25.764 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-12 23:39:27.089 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-12 23:39:28.419 | INFO     | qa_bot:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-12 23:39:28.419 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.436 | INFO     | qa_bot:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-12 23:39:28.436 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.468 | INFO     | qa_bot:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-12 23:39:28.468 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.482 | INFO     | qa_bot:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-12 23:39:28.482 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.512 | INFO     | qa_bot:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-12 23:39:28.512 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.529 | INFO     | qa_bot:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-12 23:39:28.529 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.556 | INFO     | qa_bot:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-12 23:39:28.556 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.579 | INFO     | qa_bot:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-12 23:39:28.579 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.621 | INFO     | qa_bot:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-12 23:39:28.622 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.646 | INFO     | qa_bot:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-12 23:39:28.646 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.665 | INFO     | qa_bot:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-12 23:39:28.666 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.695 | INFO     | qa_bot:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-12 23:39:28.695 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.715 | INFO     | qa_bot:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-12 23:39:28.715 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.780 | INFO     | qa_bot:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-12 23:39:28.780 | WARNING  | qa_bot:discover_links:494 - Sidebar direct link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.794 | INFO     | qa_bot:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-12 23:39:28.795 | WARNING  | qa_bot:discover_links:494 - Sidebar direct link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:28.807 | WARNING  | qa_bot:discover_links:498 - Sidebar discover DOM snapshot (truncated): 
+                <li class="nav-item active">
+                    <a href="https://uat.parfumhaus.online">
+                        <i class="feather icon-home"></i>
+                        <span class="menu-title" data-i18n="Dashboard">Dashboard</span>
+                    </a>
+                </li>
+                                <li class="nav-item has-sub">
+                    <a href="#">
+                        <i class="feather icon-user"></i>
+                        <span class="menu-title" data-i18n="Templates">User</span>
+                    </a>
+                    <ul class="menu-content" style="">
+                                                <li class="">
+                            <a class="menu-item" href="https://uat.parfumhaus.online/user" data-i18n="Vertical">All User</a>
+                        </li>
+                                                                        <li class="">
+                            <a class="menu-item" href="https://uat.parfumhaus.onl
+2025-06-12 23:39:28.813 | ERROR    | qa_bot:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:39:29.021 | ERROR    | qa_bot:check_for_broken_links:552 - Error checking broken links: 'TestResults' object has no attribute 'broken_links'
+2025-06-12 23:47:37.572 | INFO     | qa_bot:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-12 23:47:37.577 | ERROR    | qa_bot:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/login: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:44.090 | ERROR    | qa_bot:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-12 23:47:51.345 | ERROR    | qa_bot:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-12 23:47:54.474 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-12 23:47:55.780 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-12 23:47:57.086 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-12 23:47:58.359 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-12 23:47:59.660 | INFO     | qa_bot:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-12 23:47:59.660 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.675 | INFO     | qa_bot:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-12 23:47:59.675 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.706 | INFO     | qa_bot:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-12 23:47:59.707 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.739 | INFO     | qa_bot:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-12 23:47:59.739 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.771 | INFO     | qa_bot:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-12 23:47:59.772 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.791 | INFO     | qa_bot:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-12 23:47:59.793 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.815 | INFO     | qa_bot:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-12 23:47:59.816 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.849 | INFO     | qa_bot:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-12 23:47:59.849 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.895 | INFO     | qa_bot:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-12 23:47:59.896 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.950 | INFO     | qa_bot:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-12 23:47:59.951 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:47:59.972 | INFO     | qa_bot:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-12 23:47:59.973 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:48:00.003 | INFO     | qa_bot:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-12 23:48:00.003 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:48:00.039 | INFO     | qa_bot:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-12 23:48:00.040 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:48:00.091 | INFO     | qa_bot:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-12 23:48:00.091 | WARNING  | qa_bot:discover_links:494 - Sidebar direct link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:48:00.127 | INFO     | qa_bot:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-12 23:48:00.127 | WARNING  | qa_bot:discover_links:494 - Sidebar direct link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:48:00.140 | WARNING  | qa_bot:discover_links:498 - Sidebar discover DOM snapshot (truncated): 
+                <li class="nav-item active">
+                    <a href="https://uat.parfumhaus.online">
+                        <i class="feather icon-home"></i>
+                        <span class="menu-title" data-i18n="Dashboard">Dashboard</span>
+                    </a>
+                </li>
+                                <li class="nav-item has-sub">
+                    <a href="#">
+                        <i class="feather icon-user"></i>
+                        <span class="menu-title" data-i18n="Templates">User</span>
+                    </a>
+                    <ul class="menu-content" style="">
+                                                <li class="">
+                            <a class="menu-item" href="https://uat.parfumhaus.online/user" data-i18n="Vertical">All User</a>
+                        </li>
+                                                                        <li class="">
+                            <a class="menu-item" href="https://uat.parfumhaus.onl
+2025-06-12 23:48:00.143 | ERROR    | qa_bot:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:48:00.386 | ERROR    | qa_bot:check_for_broken_links:552 - Error checking broken links: 'TestResults' object has no attribute 'broken_links'
+2025-06-12 23:52:07.399 | INFO     | qa_bot:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-12 23:52:07.408 | ERROR    | qa_bot:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/login: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:52:12.175 | ERROR    | qa_bot:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-12 23:52:46.139 | INFO     | qa_bot:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-12 23:52:46.145 | ERROR    | qa_bot:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/login: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:52:55.178 | ERROR    | qa_bot:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-12 23:53:01.151 | ERROR    | qa_bot:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-12 23:53:03.751 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-12 23:53:05.048 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-12 23:53:06.340 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-12 23:53:07.635 | INFO     | qa_bot:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-12 23:53:08.967 | INFO     | qa_bot:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-12 23:53:08.968 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:08.991 | INFO     | qa_bot:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-12 23:53:08.992 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.021 | INFO     | qa_bot:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-12 23:53:09.023 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.056 | INFO     | qa_bot:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-12 23:53:09.057 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.075 | INFO     | qa_bot:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-12 23:53:09.075 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.105 | INFO     | qa_bot:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-12 23:53:09.105 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.129 | INFO     | qa_bot:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-12 23:53:09.129 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.149 | INFO     | qa_bot:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-12 23:53:09.149 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.175 | INFO     | qa_bot:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-12 23:53:09.175 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.197 | INFO     | qa_bot:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-12 23:53:09.197 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.229 | INFO     | qa_bot:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-12 23:53:09.230 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.260 | INFO     | qa_bot:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-12 23:53:09.260 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.282 | INFO     | qa_bot:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-12 23:53:09.282 | WARNING  | qa_bot:discover_links:480 - Sidebar submenu link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.344 | INFO     | qa_bot:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-12 23:53:09.344 | WARNING  | qa_bot:discover_links:494 - Sidebar direct link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.632 | INFO     | qa_bot:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-12 23:53:09.633 | WARNING  | qa_bot:discover_links:494 - Sidebar direct link error: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.698 | WARNING  | qa_bot:discover_links:498 - Sidebar discover DOM snapshot (truncated): 
+                <li class="nav-item active">
+                    <a href="https://uat.parfumhaus.online">
+                        <i class="feather icon-home"></i>
+                        <span class="menu-title" data-i18n="Dashboard">Dashboard</span>
+                    </a>
+                </li>
+                                <li class="nav-item has-sub">
+                    <a href="#">
+                        <i class="feather icon-user"></i>
+                        <span class="menu-title" data-i18n="Templates">User</span>
+                    </a>
+                    <ul class="menu-content" style="">
+                                                <li class="">
+                            <a class="menu-item" href="https://uat.parfumhaus.online/user" data-i18n="Vertical">All User</a>
+                        </li>
+                                                                        <li class="">
+                            <a class="menu-item" href="https://uat.parfumhaus.onl
+2025-06-12 23:53:09.707 | ERROR    | qa_bot:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:53:09.933 | ERROR    | qa_bot:check_for_broken_links:552 - Error checking broken links: 'TestResults' object has no attribute 'broken_links'
+2025-06-12 23:57:38.632 | INFO     | __main__:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-12 23:57:38.636 | ERROR    | __main__:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/login: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:57:38.841 | ERROR    | __main__:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/signin: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:57:39.024 | ERROR    | __main__:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/account/login: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:57:39.184 | ERROR    | __main__:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/auth/login: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:57:39.354 | ERROR    | __main__:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/user/login: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:57:39.537 | ERROR    | __main__:navigate_to:392 - Navigation error to https://uat.parfumhaus.online/: startswith first arg must be str or a tuple of str, not NoneType
+2025-06-12 23:57:39.699 | ERROR    | __main__:login:594 - Login error: 'NoneType' object has no attribute 'warnings' and no __dict__ for setting new attributes
+2025-06-13 00:03:38.664 | INFO     | __main__:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-13 00:04:03.476 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:04:14.680 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:04:25.472 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:04:53.188 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 00:05:23.236 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 00:05:25.413 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-13 00:05:26.810 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-13 00:05:28.188 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-13 00:05:29.540 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-13 00:05:30.942 | INFO     | __main__:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-13 00:05:30.964 | INFO     | __main__:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-13 00:05:31.019 | INFO     | __main__:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-13 00:05:31.055 | INFO     | __main__:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-13 00:05:31.098 | INFO     | __main__:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-13 00:05:31.167 | INFO     | __main__:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-13 00:05:31.214 | INFO     | __main__:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-13 00:05:31.257 | INFO     | __main__:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-13 00:05:31.320 | INFO     | __main__:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-13 00:05:31.364 | INFO     | __main__:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-13 00:05:31.396 | INFO     | __main__:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-13 00:05:31.437 | INFO     | __main__:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-13 00:05:31.456 | INFO     | __main__:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-13 00:05:31.520 | INFO     | __main__:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-13 00:05:31.560 | INFO     | __main__:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-13 00:05:33.671 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:05:43.921 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:05:53.065 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:06:21.939 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/create: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2025-06-13 00:06:31.559 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:10:55.647 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/wishlist-distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:11:14.032 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/wishlist: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:11:28.450 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/arrived: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:11:39.967 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:11:50.160 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/products: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:12:07.079 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:12:16.291 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:12:27.006 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:14:21.702 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/downloads: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:23:24.430 | INFO     | __main__:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-13 00:23:36.657 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:23:44.939 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:23:50.912 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:24:20.649 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 00:24:50.678 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 00:24:52.851 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-13 00:24:54.240 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-13 00:24:55.602 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-13 00:24:56.953 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-13 00:24:58.336 | INFO     | __main__:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-13 00:24:58.366 | INFO     | __main__:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-13 00:24:58.414 | INFO     | __main__:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-13 00:24:58.458 | INFO     | __main__:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-13 00:24:58.496 | INFO     | __main__:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-13 00:24:58.532 | INFO     | __main__:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-13 00:24:58.581 | INFO     | __main__:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-13 00:24:58.629 | INFO     | __main__:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-13 00:24:58.670 | INFO     | __main__:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-13 00:24:58.710 | INFO     | __main__:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-13 00:24:58.747 | INFO     | __main__:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-13 00:24:58.794 | INFO     | __main__:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-13 00:24:58.829 | INFO     | __main__:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-13 00:24:58.896 | INFO     | __main__:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-13 00:24:58.931 | INFO     | __main__:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-13 00:25:01.889 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:25:11.580 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:25:20.377 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:25:49.541 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/create: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2025-06-13 00:30:07.064 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:30:17.930 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/wishlist-distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:30:37.040 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/wishlist: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:30:51.901 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/arrived: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:31:06.011 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:31:16.132 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/products: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:31:29.692 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:31:38.497 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:31:48.278 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:33:40.457 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/downloads: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:50:09.019 | INFO     | __main__:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-13 00:50:15.454 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:50:23.070 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:50:29.230 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:50:59.252 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 00:51:29.381 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 00:51:31.658 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-13 00:51:33.585 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-13 00:51:34.938 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-13 00:51:36.457 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-13 00:51:37.965 | INFO     | __main__:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-13 00:51:37.987 | INFO     | __main__:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-13 00:51:38.028 | INFO     | __main__:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-13 00:51:38.056 | INFO     | __main__:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-13 00:51:38.078 | INFO     | __main__:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-13 00:51:38.097 | INFO     | __main__:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-13 00:51:38.121 | INFO     | __main__:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-13 00:51:38.148 | INFO     | __main__:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-13 00:51:38.171 | INFO     | __main__:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-13 00:51:38.194 | INFO     | __main__:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-13 00:51:38.219 | INFO     | __main__:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-13 00:51:38.249 | INFO     | __main__:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-13 00:51:38.271 | INFO     | __main__:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-13 00:51:38.315 | INFO     | __main__:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-13 00:51:38.336 | INFO     | __main__:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-13 00:51:41.247 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:51:50.657 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:52:20.329 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:52:30.451 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/create: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2025-06-13 00:52:39.579 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:56:54.673 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/wishlist-distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:57:13.674 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/wishlist: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:57:28.483 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/arrived: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:57:40.663 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:57:50.405 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/products: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:58:04.419 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:58:13.184 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 00:58:23.159 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:00:17.513 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/downloads: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:04:20.800 | INFO     | __main__:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-13 01:04:26.436 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:04:34.407 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:04:41.139 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:05:10.496 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 01:05:40.560 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 01:05:42.714 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-13 01:05:44.053 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-13 01:05:45.384 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-13 01:05:46.742 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-13 01:05:48.151 | INFO     | __main__:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-13 01:05:48.171 | INFO     | __main__:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-13 01:05:48.201 | INFO     | __main__:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-13 01:05:48.257 | INFO     | __main__:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-13 01:05:48.298 | INFO     | __main__:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-13 01:05:48.345 | INFO     | __main__:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-13 01:05:48.396 | INFO     | __main__:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-13 01:05:48.445 | INFO     | __main__:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-13 01:05:48.484 | INFO     | __main__:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-13 01:05:48.539 | INFO     | __main__:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-13 01:05:48.576 | INFO     | __main__:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-13 01:05:48.618 | INFO     | __main__:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-13 01:05:48.659 | INFO     | __main__:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-13 01:05:48.729 | INFO     | __main__:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-13 01:05:48.749 | INFO     | __main__:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-13 01:05:50.740 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:05:59.570 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:06:08.820 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:06:40.808 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/create: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2025-06-13 01:06:51.094 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:11:13.916 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/wishlist-distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:11:35.035 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/wishlist: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:11:50.481 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/arrived: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:12:03.573 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:12:14.185 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/products: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:12:28.199 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:12:37.495 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:12:48.228 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:14:39.279 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/downloads: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:23:40.184 | INFO     | __main__:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-13 01:23:44.993 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:23:52.723 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:23:59.137 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:24:29.304 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 01:24:59.385 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 01:25:01.745 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-13 01:25:03.156 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-13 01:25:04.567 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-13 01:25:06.057 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-13 01:25:07.638 | INFO     | __main__:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-13 01:25:07.663 | INFO     | __main__:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-13 01:25:07.717 | INFO     | __main__:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-13 01:25:07.778 | INFO     | __main__:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-13 01:25:07.828 | INFO     | __main__:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-13 01:25:08.116 | INFO     | __main__:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-13 01:25:08.229 | INFO     | __main__:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-13 01:25:08.299 | INFO     | __main__:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-13 01:25:08.376 | INFO     | __main__:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-13 01:25:08.440 | INFO     | __main__:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-13 01:25:08.492 | INFO     | __main__:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-13 01:25:08.562 | INFO     | __main__:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-13 01:25:08.615 | INFO     | __main__:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-13 01:25:08.699 | INFO     | __main__:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-13 01:25:08.722 | INFO     | __main__:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-13 01:25:10.827 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:25:20.475 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:25:30.423 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:26:02.202 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/create: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2025-06-13 01:26:14.765 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:30:43.696 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/wishlist-distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:31:04.874 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/wishlist: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:31:20.520 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/arrived: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:31:33.630 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:31:43.916 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/products: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:31:58.197 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:32:07.377 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:32:17.895 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 01:34:12.717 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/downloads: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:26:48.561 | INFO     | __main__:login:563 - Attempting to login to https://uat.parfumhaus.online/
+2025-06-13 15:27:05.227 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:27:14.258 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/login: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:27:26.490 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:27:53.322 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 15:28:23.353 | ERROR    | __main__:test_form_submission:671 - Form submission error: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[type='email'], input[name='username']")
+
+2025-06-13 15:28:25.647 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 0: text='User'
+2025-06-13 15:28:27.120 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 1: text='Product'
+2025-06-13 15:28:28.556 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 2: text='Invoice'
+2025-06-13 15:28:29.932 | INFO     | __main__:discover_links:461 - Expanding sidebar expander 3: text='Shipment Plans'
+2025-06-13 15:28:31.425 | INFO     | __main__:discover_links:473 - Submenu element 0: text='https://uat.parfumhaus.online/user'
+2025-06-13 15:28:31.501 | INFO     | __main__:discover_links:473 - Submenu element 1: text='https://uat.parfumhaus.online/user/create'
+2025-06-13 15:28:31.790 | INFO     | __main__:discover_links:473 - Submenu element 2: text='https://uat.parfumhaus.online/product'
+2025-06-13 15:28:31.822 | INFO     | __main__:discover_links:473 - Submenu element 3: text='https://uat.parfumhaus.online/product/create'
+2025-06-13 15:28:31.936 | INFO     | __main__:discover_links:473 - Submenu element 4: text='https://uat.parfumhaus.online/product/distinct'
+2025-06-13 15:28:31.981 | INFO     | __main__:discover_links:473 - Submenu element 5: text='https://uat.parfumhaus.online/product/wishlist-distinct'
+2025-06-13 15:28:32.043 | INFO     | __main__:discover_links:473 - Submenu element 6: text='https://uat.parfumhaus.online/products/wishlist'
+2025-06-13 15:28:32.079 | INFO     | __main__:discover_links:473 - Submenu element 7: text='https://uat.parfumhaus.online/products/arrived'
+2025-06-13 15:28:32.137 | INFO     | __main__:discover_links:473 - Submenu element 8: text='https://uat.parfumhaus.online/invoice'
+2025-06-13 15:28:32.164 | INFO     | __main__:discover_links:473 - Submenu element 9: text='https://uat.parfumhaus.online/invoice/products'
+2025-06-13 15:28:32.226 | INFO     | __main__:discover_links:473 - Submenu element 10: text='https://uat.parfumhaus.online/invoice/create'
+2025-06-13 15:28:32.281 | INFO     | __main__:discover_links:473 - Submenu element 11: text='https://uat.parfumhaus.online/shipment-plan'
+2025-06-13 15:28:32.357 | INFO     | __main__:discover_links:473 - Submenu element 12: text='https://uat.parfumhaus.online/shipment-plan/create'
+2025-06-13 15:28:32.444 | INFO     | __main__:discover_links:488 - Sidebar direct link 0: text='https://uat.parfumhaus.online'
+2025-06-13 15:28:32.477 | INFO     | __main__:discover_links:488 - Sidebar direct link 1: text='https://uat.parfumhaus.online/downloads'
+2025-06-13 15:28:35.292 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:28:44.959 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/user/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:29:18.460 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:29:30.291 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/create: Failed to load resource: the server responded with a status of 500 (Internal Server Error)
+2025-06-13 15:31:15.989 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:36:04.043 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/product/wishlist-distinct: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:36:25.527 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/wishlist: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:36:41.494 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/products/arrived: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:36:54.220 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:37:05.198 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/products: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:37:19.901 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/invoice/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:37:29.170 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:37:40.386 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/shipment-plan/create: Failed to load resource: the server responded with a status of 404 (Not Found)
+2025-06-13 15:39:37.412 | ERROR    | __main__:_handle_console_message:137 - Console error on https://uat.parfumhaus.online/downloads: Failed to load resource: the server responded with a status of 404 (Not Found)
